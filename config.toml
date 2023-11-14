@@ -10,3 +10,11 @@ insert = "bar"
 left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
 right = ["version-control", "selections", "total-line-numbers", "position"]
 
+[keys.insert]
+"C-;" = "normal_mode"
+
+[keys.select]
+"C-;" = "normal_mode"
+
+[keys.normal.g]
+a = "code_action"

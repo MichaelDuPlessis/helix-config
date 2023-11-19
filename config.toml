@@ -10,6 +10,12 @@ insert = "bar"
 left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
 right = ["version-control", "selections", "total-line-numbers", "position"]
 
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.indent-guides]
+render = true
+
 [keys.insert]
 "C-;" = "normal_mode"
 

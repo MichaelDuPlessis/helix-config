@@ -16,6 +16,9 @@ display-inlay-hints = true
 [editor.indent-guides]
 render = true
 
+# [editor.inline-diagnostics]
+# cursor-line = "error"
+
 [keys.insert]
 "C-;" = "normal_mode"
 

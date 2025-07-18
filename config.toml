@@ -24,6 +24,10 @@ render = true
 
 [keys.select]
 "C-;" = "normal_mode"
+"X" = "extend_line_above"
+
+[keys.normal]
+"X" = "extend_line_above"
 
 [keys.normal.g]
 a = "code_action"
